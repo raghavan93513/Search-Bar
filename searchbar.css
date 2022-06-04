@@ -1,9 +1,10 @@
+/*For all */
 * {
     font-size: 1.5rem;
   }
   
-  .input-wrapper {
-    display: flex;
+.input-wrapper {
+    display: flex; 
     align-items: center;
     justify-content: space-between;
     background: #d86755;
@@ -14,17 +15,19 @@
     box-shadow: 0.25rem 0.25rem 0rem #f0b2a8;
   }
   
-  input {
+input {
+	/*Margin to give gap between icons and input box*/
     margin: 0 0.5rem 0 0.5rem;
     width: 100%;
+	/*Textbox border is removed*/
     border: none;
+	/*When we click on the textbox border is highlighted - thats is called outline, we want to remove it*/
     outline: none;
     background: #d86755;
     color: white;
   }
   
-  ::placeholder {
+/*Place holder is the text on the search bar when you havent types out anything*/
+::placeholder {
     color: #f0b2a8;
   }
-
-  
